@@ -1,0 +1,78 @@
+*{outline: 1px solid red};
+
+body{
+	font-family: Optima, Segoe,  'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 13px;
+
+}
+.container{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+
+.header{
+	color: #FFFFFF;	
+	background: url(../img/background/hero.jpg);
+	background-size: cover;
+}
+.menu{
+	background: #2D2D40;
+	padding-bottom: 10px;
+}
+.pull-right{
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.hero{
+	background: rgba(47, 47, 47, 0.5);
+}
+.hero h1{
+	padding-top: 150px;
+	font-size: 50px;
+}
+.hero p{
+	padding: 20px;
+	font-size: 20px;
+}
+.botones-header{
+	padding: 20px;
+	margin-bottom: 180px;
+}
+.botones-header .btn{
+	margin: 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 18px;
+	background: rgba(47, 47, 47, 0.5);
+}
+.botones-header .btn:hover{
+	background: rgba(47, 47, 47, 0.9);
+}
+.clases{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.clases .text-center{
+	margin: 30px;
+}
+.clases .icono{
+	height: 10%;
+	width: 10%; 
+}
+.features{
+	background: #F4F4F5;
+}
+.features img{
+	width: 100%;
+}
+.proyectos{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.proyectos .text-left{
+	margin: 30px;
+}
+
