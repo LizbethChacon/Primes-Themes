@@ -1,32 +1,43 @@
-*{outline: 1px solid red};
+/**{outline: 1px solid red};*/
 
 body{
 	font-family: Optima, Segoe,  'Segoe UI', Candara, Calibri, Arial, sans-serif;
 	font-size: 13px;
-
 }
 .container{
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
-
-
+/*HEADER*/
 .header{
-	color: #FFFFFF;	
 	background: url(../img/background/hero.jpg);
+	color: #FFFFFF;		
 	background-size: cover;
 }
 .menu{
-	background: #2D2D40;
-	padding-bottom: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	padding-bottom: 5px;
 }
 .pull-right{
 	padding-top: 20px;
 	padding-right: 20px;
 }
+.list-menu li{
+	margin-left: 5px;
+	font-weight: bold;
+}
+.list-menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.list-menu a:hover{
+	color: #1A94B5;
+}
+
+/*CONTENIDO*/
 .hero{
-	background: rgba(47, 47, 47, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 }
 .hero h1{
 	padding-top: 150px;
@@ -38,7 +49,7 @@ body{
 }
 .botones-header{
 	padding: 20px;
-	margin-bottom: 180px;
+	margin-bottom: 130px;
 }
 .botones-header .btn{
 	margin: 15px;
@@ -59,20 +70,195 @@ body{
 	margin: 30px;
 }
 .clases .icono{
-	height: 10%;
-	width: 10%; 
+	font-size: 50px;
+	color: #1A94B5;
 }
 .features{
 	background: #F4F4F5;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
+
+/*FEATURES Y PROYECTOS*/
 .features img{
 	width: 100%;
 }
 .proyectos{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding: 60px;
 }
-.proyectos .text-left{
+.proyectos .media{
+	margin-bottom: 40px;
+}
+.proyectos i{
+	color: #1A94B5;
+	font-size: 25px;
+}
+
+/*PORTFOLIO*/
+
+section {
+	background: #f1f1f1;
+	padding: 5px;
+}
+.sec2{
+	background: #f1f1f1;
+	padding: 5px;
+}
+.bot{
+	margin-top:8px;
+	margin-bottom:5px; 
+}
+.formato{
+	margin: 5px;
+}
+
+.cd1{
+	min-height: 400px; 
+	position:relative; 
+	overflow: hidden; 
+	background-color: rgba(0,0,0,0.5); 
+	color:#fff;
+}
+.cd1 img{
+	max-width: 1300px; 
+	position: absolute; 
+	z-index: -100; 
+	margin:-15px; 
+}
+.cd2 h4{
+	margin-top: 120px;
+}
+.cd2 a{
+	margin-top: 80px;
+	color: #fff;
+}
+.boton1{
+	padding-bottom: 5px;
+    background-color: #424242;
+	color: #fff;
+}
+.boton2{
+	background-color: #424242;
+	color: #fff;
+	padding:2px;
+	width: 80px;
+}
+.fondo{
+	margin: 15px;
+	padding: 10px;
+	background: #FFFFFF;
+	width: 335px;
+}
+
+.stan h1{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 0px;
+
+}
+.stan h3{
+	background: #787979;
+	padding: 30px;
+	margin-top: 0px;
+}
+.list-unstyled{
+	padding: 10px;
+	margin: 15px;
+}
+
+/*FOOTER*/
+.footer{	
+	color: #FFFFFF;		
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.footer{
+	background: url(../img/background/contactus.jpg);
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+.contacto{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	padding-bottom: 30px;
+	height: auto;
+}
+.contact .text-center{
+	padding: 10px;
+}
+.texto-contacto{
+	font-size: 15px;
+}
+.contact h4{
+	margin-bottom: 30px;
+}
+.contact .col-md-6{
+	padding-top: 0px;
+}
+.interlineado{
+	line-height: 2;
+}
+.contact input{
+	border:none;	
+	width: 100%;
+	height: 40px;
+	background: rgba(47, 47, 47, 0.5);
+	padding: 10px;
+	padding-left: 10px;
+}
+.contact textarea{
+	width: 100%;
+	height: 150px;
+	border: none;
+	background: rgba(47, 47, 47, 0.5);
+}
+.boton-footer .btn{
+	width: 110px;
+	padding: 10px;
+	color: #FFFFFF;	
+	font-size: 15px;
+	background: #35B2A6;
+	margin-bottom: 20px;
+}
+.boton-footer .btn:hover{
+	background: rgba(0, 0, 0, 0.5);
+}
+.col-md-6 p{
+	margin-bottom: 30px;
+}
+.col-md-6 p .iconos{
+	margin-right: 15px;
+}
+.fondo-blanco{
+	padding: 50px;
+}
+.siguenos p{
 	margin: 30px;
+}
+.redes{
+	padding: 10px;
+	font-size: 30px;
+}
+.redes a{
+	color: #2C2D2D;
+	margin: 3px;
+}
+.fondo-negro{
+	background: #2C2D2D;
+	color: #6C6C6C;
+	padding: 30px;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 750px){
+	.menu .container{ padding-top: 5px;  margin: 0px; }
+	.pull-right{ padding: 0px; }
+	.list-menu li{ margin: 0px; font-weight: normal; }
+	.botones-header .btn{ margin: 5px; }
+	.hero h1{ padding-top: 30px; }
+	.clases .text-center{ margin: 5px; }
+	.proyectos{ margin: 25px; padding: 10px; }
+	.footer .container{ margin: 20px; padding: 0px; }
 }
 
